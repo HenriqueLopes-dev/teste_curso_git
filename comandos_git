@@ -1,0 +1,41 @@
+COMANDOS BÁSICOS:
+git init -> inicia git numa pasta
+git clone -> clona um repo
+git remote set-url origin git@github.com:usuario/repositorio.git -> deixa fazer comandos sem a solicitar autentificacao
+git remote -v -> mostra as conexoes atuais
+git remote rm origin -> remove a origin atual
+git status -> mostra como estao as commits e tals
+git add . -> adiciona os arquivos novos criados
+git rm "nomedoarquivo" -> remove o arquivo da repo
+git commit -a -m "mensagem qualquer" -> commita as mudancas feitas, escrever uma mensagem é boa pratica
+git push -> envia o codigo para o repo
+git pull -> recebe a ultima versao da repo
+git log -> lista todos os commits realizados
+git mv "nomedoarquivo" "novonome" -> move o arquivo e/ou renomeia
+git checkout "nomedoarquivo" -> volta o arquivo para o original (so funciona antes do commit)
+git reset --hard origin/main -> volta a branch para o original da repo
+
+BRANCH:
+git branch -> visualiza todas as branchs
+git branch "nomedabranch" -> cria uma nova branch
+git branch -d "nomedabranch" -> deleta a branch
+git checkout "nomedabranch" -> muda para a branch
+git checkout -b "nomedabranch" -> cria e muda para a branch
+git merge "nomedabranch" -> junta a branch atual com a branch escrita
+
+STASH:
+git stash -> volta tudo para como esta na repo, porem pode ser recuperado (so funciona antes do commit)
+git stash list -> lista todas as stash da branch, possui indices
+git stash apply "n indice" -> recupera um stash
+git stash drop "n indice" -> apaga a stash
+git stash clear -> apaga todas as stashes
+
+TAG:
+git tag -> lista todas as tags da branch
+git tag -a "v1.0" -m "comentario qualquer" -> usado para salvar uma parte do progresso, pode ser voltado para esse estagio
+git show "nome tag" -> mostra detalhes da tag
+git checkout "nome tag" -> troca de tag
+git push origin "v1.0" -> envia para o repo a tag
+git push origin --tags -> envia todas as tags para a repo
+OBS: sempre dar commit antes de criar a tag
+

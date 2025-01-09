@@ -19,6 +19,17 @@ git fetch -a -> atualiza os branchs que podem ter sido criados por outros, ao us
 git submodule -> lista os submodulos da repo
 git submodule add https://github.com/usuario/repositorio_submodule -> adiciona submodule
 git push --recurse-submodules=on-demand -> para dar o push no submodule
+git show -> mostra detalhes da branch atual
+git show "tag" -> mostra detalhes da tag
+git diff -> mostra a diferenca do branch atual com o repo
+git diff "branch" -> mostra as diferencas do branca atual com outro branch
+git diff "branch" "branch2" -> mostra as diferencas entre 2 branches
+git shortlog -> log resumido do projeto
+git clean -f -> remove os arquivos ou mudancas untrackeds
+git gc -> exclui os arquivos nao necessarios
+git fsck -> verifica a integridade dos arquivos
+git reflog -> log mais detalhado da pra fazer o git reset --hard "iddareflog"
+git archieve --format zip --output projeto.zip main -> transforma a repo em um arquivo compactado
 
 BRANCH:
 git branch -> visualiza todas as branchs

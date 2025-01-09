@@ -14,6 +14,12 @@ git mv "nomedoarquivo" "novonome" -> move o arquivo e/ou renomeia
 git checkout "nomedoarquivo" -> volta o arquivo para o original (so funciona antes do commit)
 git reset --hard origin/main -> volta a branch para o original da repo
 
+COMANDOS ALTERNATIVOS:
+git fetch -a -> atualiza os branchs que podem ter sido criados por outros, ao usar o checkout ele aparece nos branchs atuais
+git submodule -> lista os submodulos da repo
+git submodule add https://github.com/usuario/repositorio_submodule -> adiciona submodule
+git push --recurse-submodules=on-demand -> para dar o push no submodule
+
 BRANCH:
 git branch -> visualiza todas as branchs
 git branch "nomedabranch" -> cria uma nova branch

@@ -30,6 +30,7 @@ git gc -> exclui os arquivos nao necessarios
 git fsck -> verifica a integridade dos arquivos
 git reflog -> log mais detalhado da pra fazer o git reset --hard "iddareflog"
 git archieve --format zip --output projeto.zip main -> transforma a repo em um arquivo compactado
+git rebase "branchatual" "branchrefatorar" -> muda e apaga as commits, squash e reword
 
 BRANCH:
 git branch -> visualiza todas as branchs

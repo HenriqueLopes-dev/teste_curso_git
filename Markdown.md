@@ -31,4 +31,4 @@ Obs: listas podem ser criadas uma dentro da outra, podendo ser de qualquer tipo
 
 ### Imagem com link -> \!\[nome](link imagem)(link site)
 
-![logo github](imagens/logoGitHub.png)(https://github.com)
+[![logo github](imagens/logoGitHub.png)](https://github.com)

@@ -20,3 +20,8 @@
 * item z
   
 Obs: listas podem ser criadas uma dentro da outra, podendo ser de qualquer tipo
+
+### Imagem
+
+![Pessoa gerada por IA](img/pessoaIa.jpeg)
+

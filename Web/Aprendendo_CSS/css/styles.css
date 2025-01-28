@@ -1,0 +1,52 @@
+/*
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 100px;
+    font-style: italic;
+    text-decoration:underline;
+    
+    background: url('../img/mosico.png') blue repeat-x top left fixed;
+    
+    float: none;
+    position: static;
+}
+*/
+
+h1{
+    color: #2bd30e;
+}
+
+body{
+    background-color: #F4E7DC;
+}
+.barra_principal{
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: auto;
+    text-align: center;
+    border: solid #D4B89B;
+    border-width: 0px 5px 5px;
+    padding: 20px;
+    background-color: #B08C72;
+    border-radius: 20px 20px 200px 200px;
+    
+}
+
+a{
+    padding: 15px;
+    text-decoration: none;
+    color: #6C88C4;
+    font-weight: bold;
+}
+
+.clear{
+    clear: both;
+    width: auto;
+    position:relative;
+    left: 50%;
+    border: 10px solid magenta;
+    transform: translateX(-50%);
+}

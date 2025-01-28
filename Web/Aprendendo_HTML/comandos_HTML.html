@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comandos Basicos HTML</title>
+</head>
+
+<body>
+    <!-- comentário -->
+    <h1>Cabeçalho h1</h1>    
+    <h2>Cabeçalho h2</h2>    
+    <h3>Cabeçalho h3</h3>    
+    <h4>Cabeçalho h4</h4>    
+    <h5>Cabeçalho h5</h5>    
+    <h6>Cabeçalho h6</h6>
+    <hr>
+    <h2>Formatações:</h2>
+    <p>Esse é um texto em <strong>negrito</strong></p>
+    <p>Esse é um texto em <em>itálico</em></p>
+    <p>Esse é um texto <u>underline</u></p>
+    <p>Esse é um texto <strike>riscado</strike></p>
+    <hr>
+    <h2>Listas:</h2>
+    <h4>Não ordenada:</h4>
+    <!-- circle, square-->
+    <ul type="square">
+        <li>abóbora</li>
+        <li>melão</li>
+        <li>melância</li>
+    </ul>
+    <h4>Ordenada:</h4>
+    <!-- a, A, I, i-->
+    <ol type="I">
+        <li>abóbora</li>
+        <li>melão</li>
+        <li>melância</li>
+    </ol>
+    <hr>
+        <!-- colspan e rowspan para expandir -->
+        <h2>Tabela:</h2>
+        <table border="1" width="30%">
+            <tr>
+                <th>Código</th>
+                <th>Produto</th>
+                <th>Preço</th>
+            </tr>
+
+            <tr>
+                <td>001</td>
+                <td>Melância</td>
+                <td>R$ 3,98</td>
+            </tr>
+            
+            <tr>
+                <td>002</td>
+                <td>Melão</td>
+                <td>R$5,79</td>
+            </tr>
+
+            <tr>
+                <td>003</td>
+                <td>Abóbora</td>
+                <td>R$ 6,88</td>
+            </tr>
+        </table>
+    <hr>
+
+    <h2>Cadastro</h2>
+    <form>
+        Usuário:<br>
+        <input type="text"><br>
+        Senha:<br>
+        <input type="password"><br>
+        Sexo:<br>
+        <input type="radio" name="sexo" value="M">Masculino<br>
+        <input type="radio" name="sexo" value="F">Feminino<br>
+        Gostos musicais:<br>
+        <input type="checkbox" name="gosto_musical">Sertanejo<br>
+        <input type="checkbox" name="gosto_musical">Eletronica<br>
+        <input type="checkbox" name="gosto_musical">Pop<br>
+        Estado:<br>
+        <select name="estado">
+            <option value="sp">SP</option>
+            <option value="mg">MG</option>
+            <option value="rs">RS</option>
+            <option value="rj">RJ</option>
+        </select>
+        <br>
+        Observações:<br>
+        <textarea></textarea><br>
+        <input type="submit" value="Entrar">
+    </form>
+    <hr>
+    <!-- Links -->
+    <h2>Link:</h2>
+    <p><a href="teste_links.html">Isso levará para outro site!</a></p>
+    <p><a href="https://www.google.com" target="_blank">Esse link abrirá em uma nova aba!</a></p>
+    <hr>
+    <h2>Imagem:</h2>
+    <img src="img/thispersondoesnotexist.jpeg" width="400" height="400">
+</body>
+
+</html>

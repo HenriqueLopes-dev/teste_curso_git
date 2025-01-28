@@ -1,0 +1,50 @@
+
+body{
+    background: #d2d2c1 url('img/fundo.png');
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    
+}
+
+a{
+    color: #4b566a;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px;
+}
+
+h1{
+    color: #828271;
+    font-size: 1.4em;    
+}
+
+.imgs{
+    border: 10px solid #c3c3ae;
+}
+
+.principal{
+    width: 900px;
+}
+
+.navegacao{
+    color: rgb(24, 24, 79);
+    background-color: #c5c5b2;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    
+}
+
+.titulo{
+    color: rgb(240, 247, 167);
+    font-size: 32px
+}
+
+.div_normal{
+    padding: 15px;
+    background-color: white;
+}
+
+.rodape{
+    text-align: center;
+}
